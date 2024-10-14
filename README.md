@@ -1,22 +1,31 @@
-# next-template
+# Muath's Front-End Developer Portfolio
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+Welcome to my portfolio! I am **Muath**, a Front-End Developer with experience in a wide range of front-end technologies and languages. My focus is on creating responsive, dynamic, and user-friendly websites and applications.
 
-## Usage
+## Skills
+- HTML5, CSS3, and JavaScript (ES6+)
+- Frameworks and Libraries: React, Angular, Vue.js
+- CSS Preprocessors: SASS, LESS
+- Responsive Design & Mobile-First Approach
+- Version Control: Git, GitHub
+- Web Performance Optimization
+- Cross-browser Compatibility
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
+## Projects
+Here are some of the projects I've worked on. Each showcases different aspects of my front-end expertise, from user interface design to complex functionality.
 
-## Features
+1. **Project Name 1**  
+   A brief description of the project, the technologies used, and the problem it solves.
 
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+2. **Project Name 2**  
+   A brief description of the project, the technologies used, and the problem it solves.
 
-## License
+3. **Project Name 3**  
+   A brief description of the project, the technologies used, and the problem it solves.
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+## Contact
+Feel free to reach out to discuss potential collaborations or freelance work:
+
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
