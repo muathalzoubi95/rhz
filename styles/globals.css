@@ -74,8 +74,38 @@
   * {
     @apply border-border;
   }
+
   body {
-    @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    background: url(/bg.svg) no-repeat;
+    background-size: contain;
+    animation: bg-pos backwards 1 2s alternate;
+
+  }
+
+  @keyframes anim {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes bg-pos {
+    0% {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+    }
+
+    100% {
+      color: rgb(106, 106, 106);
+      background-color: rgba(0, 0, 0, 0.0);
+    }
   }
 }
