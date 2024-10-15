@@ -1,12 +1,12 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import {CheckCircle } from "lucide-react"
+import {Code } from "lucide-react"
 import { JSX, SVGProps } from "react"
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-
+    <div className="flex flex-col min-h-screen ">
+<img className="app" src="./bg.svg"  alt="bg"/>
       <main className="flex-1">
         <section className="w-full  h-full py-24 md:py-24 lg:py-64 xl:py-42">
           <div className="container px-4 md:px-6">
@@ -26,57 +26,57 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section className="w-full py-24 md:py-32 lg:py-64 bg-gray-100 dark:bg-gray-900">
+        <section className="w-full py-12 md:py-32 lg:py-12 bg-gray-100 dark:bg-gray-900">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
               Skills
             </h2>
             <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-2 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500" />
+                <Code className="h-8 w-8 text-green-500" />
                 <h3 className="text-xl font-bold text-center">Responsive Layout</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
                   Designing web pages that adapt to different screen sizes and devices using CSS media queries, Flexbox, Grid.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-2 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500" />
+                <Code className="h-8 w-8 text-green-500" />
                 <h3 className="text-xl font-bold text-center">Cross-Browser Compatibility</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
                   Ensuring that websites look and work well on all major browsers (Chrome, Firefox, Safari, Edge) and older versions when necessary.                </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-2 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500" />
+                <Code className="h-8 w-8 text-green-500" />
                 <h3 className="text-xl font-bold text-center">CSS Preprocessors </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
                   Writing maintainable, DRY (Don't Repeat Yourself) stylesheets by using variables, mixins, and nesting.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-2 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500" />
+                <Code className="h-8 w-8 text-green-500" />
                 <h3 className="text-xl font-bold text-center"> Performance Optimization </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
                   Optimizing websites for speed by minimizing load times, reducing asset sizes, lazy loading, and using CDNs.                </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-2 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500" />
+                <Code className="h-8 w-8 text-green-500" />
                 <h3 className="text-xl font-bold text-center ">API Integration  </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
                   Fetching and displaying data from APIs using HTTP methods and managing state effectively.             </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-2 rounded-lg">
-                <CheckCircle className="h-8 w-8 text-green-500" />
+                <Code className="h-8 w-8 text-green-500" />
                 <h4 className="text-xl font-bold text-center ">Progressive Web Apps </h4>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
                   Building web apps that function like native apps with features like offline access and push notifications.</p>           </div>
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-12 lg:py-12">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl pb-6">
                 Technologies
                 </h2>
                 <div className="grid gap-10 sm:grid-cols-5 md:grid-cols-5">

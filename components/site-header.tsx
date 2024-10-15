@@ -7,16 +7,16 @@ export function SiteHeader() {
       <span className="sr-only">Acme Inc</span>
     </Link>
     <nav className="ml-auto flex gap-4 sm:gap-6">
-      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="#">
+      <Link  className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/projects">
         Projects
       </Link>
-      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="#">
+      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/experiences">
       Experiences
       </Link>
-      <Link className="text-sm font-small hover:underline underline-offset-4  pt-3" href="#">
+      <Link className="text-sm font-small hover:underline underline-offset-4  pt-3" href="/aboutme">
         About me
       </Link>
-      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="#">
+      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/contact">
         Contact
       </Link>
     
