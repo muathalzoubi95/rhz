@@ -4,10 +4,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, FileText, Home } from 'lucide-react'
 import { Progress } from '@/components/ui/progress'
+import Badge from '@/components/ui/badge'
 
 export default function AboutMePage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 ">
       <header className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold">About Me</h1>
         <Link href="/" passHref>
@@ -20,20 +21,20 @@ export default function AboutMePage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card className="md:col-span-1">
-          <CardContent className="pt-6">
+          <CardContent className="pt-3">
             <div className="flex flex-col items-center">
-              <Image
-                src="/placeholder.svg?height=200&width=200"
+              <img
+                src="/22.png"
                 alt="Profile Picture"
                 width={200}
                 height={200}
                 className="rounded-full mb-4"
               />
-              <h2 className="text-2xl font-bold mb-2">John Doe</h2>
-              <p className="text-muted-foreground mb-4">Full Stack Developer</p>
+              <h2 className="text-2xl font-bold mb-2">Muath A. Alzoubi</h2>
+              <p className="text-muted-foreground mb-4">Front-End Developer</p>
               <div className="flex space-x-2">
                 <Button variant="outline" size="icon" asChild>
-                  <Link href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/muathzoubi/" target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4" />
                     <span className="sr-only">GitHub</span>
                   </Link>
@@ -45,13 +46,13 @@ export default function AboutMePage() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
-                  <Link href="mailto:john@example.com">
+                  <Link href="mailto:moathaza@gmail.com">
                     <Mail className="h-4 w-4" />
                     <span className="sr-only">Email</span>
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
-                  <Link href="/john-doe-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                     <FileText className="h-4 w-4" />
                     <span className="sr-only">Resume</span>
                   </Link>
@@ -62,24 +63,17 @@ export default function AboutMePage() {
         </Card>
 
         <Card className="md:col-span-2">
-          <CardHeader>
+          <CardHeader className='mb-9'>
             <CardTitle>Biography</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">
-              Hello! I'm John Doe, a passionate Full Stack Developer with over 5 years of experience in creating
-              web applications. I specialize in JavaScript technologies across the stack and have a strong
-              foundation in computer science principles.
+            <p className="mb-12">
+            I'm Muath Alzoubi, a front-end developer with 3 years of experience. 
+            I have strong expertise in React.js, along with proficiency in HTML, CSS, and JavaScript.  
             </p>
-            <p className="mb-4">
-              My journey in tech started when I built my first website at the age of 15. Since then, I've been
-              constantly learning and adapting to new technologies. I'm particularly interested in creating
-              scalable backend systems and intuitive user interfaces.
-            </p>
-            <p>
-              When I'm not coding, you can find me hiking in the mountains, reading sci-fi novels, or
-              experimenting with new cooking recipes. I'm always open to new opportunities and collaborations,
-              so feel free to reach out!
+            <p className="mb-12">
+            Currently, I'm working on a complex document viewer project that integrates Optical Character Recognition (OCR) for extracting text from images and scanned documents, as well as conversion features that allow documents to be transformed into different formats.
+            This project aims to streamline document management and enhance accessibility.
             </p>
           </CardContent>
         </Card>
@@ -128,18 +122,18 @@ export default function AboutMePage() {
           </CardHeader>
           <CardContent>
             <div className="flex flex-wrap gap-2">
-              <code>JavaScript</code>
-              <code>TypeScript</code>
-              <code>React</code>
-              <code>Next.js</code>
-              <code>Node.js</code>
-              <code>Express</code>
-              <code>MongoDB</code>
-              <code>PostgreSQL</code>
-              <code>GraphQL</code>
-              <code>Docker</code>
-              <code>AWS</code>
-              <code>Git</code>
+              <Badge>JavaScript</Badge>
+              <Badge>TypeScript</Badge>
+              <Badge>React</Badge>
+              <Badge>Next.js</Badge>
+              <Badge>Node.js</Badge>
+              <Badge>Express</Badge>
+              <Badge>MongoDB</Badge>
+              <Badge>PostgreSQL</Badge>
+              <Badge>GraphQL</Badge>
+              <Badge>Docker</Badge>
+              <Badge>AWS</Badge>
+              <Badge>Git</Badge>
             </div>
           </CardContent>
         </Card>

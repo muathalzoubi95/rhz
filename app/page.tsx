@@ -5,25 +5,26 @@ import { buttonVariants } from "@/components/ui/button"
 
 export default function IndexPage() {
   return (
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Beautifully designed components <br className="hidden sm:inline" />
-          built with Radix UI and Tailwind CSS.
+    <><div className="app"></div>
+    <section className="container w-full grid items-center gap-6 pb-8 py-40   text-center">
+      <div className="flex flex-col items-center gap-2">
+        <h1 className="py-4 text-5xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white sm:text-3xl">
+        Welcome to My Portfolio
+
         </h1>
+       
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Accessible and customizable components that you can copy and paste
-          into your apps. Free. Open Source. And Next.js 13 Ready.
+        Focus on delivering intuitive, efficient, and high-performing web solutions tailored to meet the needs of businesses and users alike. Let’s collaborate to bring your vision to life!
         </p>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4  m-auto">
         <Link
           href={siteConfig.links.docs}
           target="_blank"
           rel="noreferrer"
           className={buttonVariants()}
         >
-          Documentation
+          Contact me
         </Link>
         <Link
           target="_blank"
@@ -34,6 +35,6 @@ export default function IndexPage() {
           GitHub
         </Link>
       </div>
-    </section>
+    </section></>
   )
 }

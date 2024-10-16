@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Theme } from "@radix-ui/themes"
 
 export const metadata: Metadata = {
   title: {
@@ -33,20 +34,21 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang="en" suppressHydrationWarning>
-        <head />
+        <head >
+        <link rel="stylesheet" href="https://sites.super.so/aether/v2/style.css"/>
+        </head>
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
             fontSans.variable
           )}
-        >
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        ><Theme accentColor="plum">
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
               <div className="flex-1">{children}</div>
             </div>
             <TailwindIndicator />
-          </ThemeProvider>
+          </Theme>
         </body>
       </html>
     </>

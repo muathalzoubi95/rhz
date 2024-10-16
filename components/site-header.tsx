@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ThemeToggle } from "./theme-toggle"
 export function SiteHeader() {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -19,7 +20,7 @@ export function SiteHeader() {
       <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/contact">
         Contact
       </Link>
-    
+    <ThemeToggle/>
     </nav>
   </header>
   )

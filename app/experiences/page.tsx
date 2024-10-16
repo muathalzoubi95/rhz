@@ -34,37 +34,42 @@ const experiences: ExperienceItem[] = [
     location: "New York, NY",
     period: "Jun 2018 - Dec 2020",
     description: [
-      "Developed and maintained multiple client websites using React and Express.js",
-      "Optimized database queries, improving application performance by 30%",
-      "Collaborated with UX designers to implement responsive and accessible interfaces"
+      "Analyzing and formulating requirements for web-based applications.",
+
+      "Collaborating closely with team members to understand web development needs,      resolve technical issues, and ensure customer satisfaction.",
+      
+      "Developing and optimizing web modules using React.js, ensuring alignment with      agreed-upon requirements.",
+      
+      "Designing, reviewing, and updating technical documentation specific to web modules,      including React.js components.",
+      
+      "Conducting unit tests and extensive testing of web modules to ensure robustness and      efficiency.",
     ],
     skills: ["JavaScript", "React", "Express.js", "MongoDB", "Git"],
     type: "work"
   },
   {
-    title: "Junior Web Developer",
-    company: "StartUp Dynamics",
-    location: "Austin, TX",
-    period: "Sep 2016 - May 2018",
+    title: "Call Center Agent  ",
+    company: "EXTENSYA Company",
+    location: "Irbid, JO",
+    period: "Oct 2018 - Dec 2018",
     description: [
-      "Assisted in the development of a social media management tool",
-      "Implemented front-end features using Angular and integrated with RESTful APIs",
-      "Participated in daily stand-ups and sprint planning meetings"
+      "Handle incoming and outgoing calls in a professional manner",
+      "Provide excellent customer service and support      ","Address customer inquiries, complaints, and requests     ",
+      "Document and maintain records of customer interactions"
     ],
     skills: ["HTML", "CSS", "JavaScript", "Angular", "RESTful APIs"],
     type: "work"
   },
   {
-    title: "Bachelor of Science in Computer Science",
-    company: "Tech University",
-    location: "Boston, MA",
-    period: "Sep 2012 - May 2016",
+    title: "Bachelor of CIS",
+    company: "JUST University",
+    location: "Irbid, JO",
+    period: "Jun 2013 - Jun 2018",
     description: [
-      "Graduated with honors (GPA: 3.8/4.0)",
-      "Relevant coursework: Data Structures, Algorithms, Web Development, Database Systems",
-      "Senior project: Developed a machine learning model for predicting stock market trends"
+      "Web development, Algorithms, Web Development, Database Systems",
+      "Simple mobile app creation, and system workflow understanding      "
     ],
-    skills: ["Java", "Python", "Data Structures", "Algorithms", "Machine Learning"],
+    skills: ["Systems", "Python", "Data Structures", "Algorithms", "Machine Learning"],
     type: "education"
   }
 ]
@@ -88,10 +93,10 @@ export default function ExperiencePage() {
             <CardHeader>
               <div className="flex items-center justify-between">
                 <div>
-                  <CardTitle className="text-xl font-bold">{exp.title}</CardTitle>
+                  <CardTitle className="text-md font-bold">{exp.title}</CardTitle>
                   <CardDescription>{exp.company} • {exp.location}</CardDescription>
                 </div>
-                <Badge variant="secondary">{exp.period}</Badge>
+                <Badge className="text-sm" variant="secondary">{exp.period}</Badge>
               </div>
             </CardHeader>
             <CardContent>
@@ -100,16 +105,12 @@ export default function ExperiencePage() {
                   <li key={i}>{item}</li>
                 ))}
               </ul>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 pb-4">
                 {exp.skills.map((skill, i) => (
                   <Badge key={i} variant="outline">{skill}</Badge>
                 ))}
               </div>
-              {exp.type === 'work' ? (
-                <Briefcase className="absolute top-6 right-6 h-6 w-6 text-muted-foreground" />
-              ) : (
-                <GraduationCap className="absolute top-6 right-6 h-6 w-6 text-muted-foreground" />
-              )}
+            
             </CardContent>
           </Card>
         ))}

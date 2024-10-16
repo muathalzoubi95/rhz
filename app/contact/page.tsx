@@ -51,19 +51,19 @@ export default function ContactPage() {
               <div className="grid w-full items-center gap-4">
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="name">Name</label>
-                  <input className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="name" name="name" value={formData.name} onChange={handleChange} required />
+                  <input className='h-full rounded-md border-solid border-2 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="name" name="name" value={formData.name} onChange={handleChange} required />
                 </div>
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="email">Email</label>
-                  <input className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
+                  <input className='h-full rounded-md border-solid border-2 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
                 </div>
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="subject">Subject</label>
-                  <input className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
+                  <input className='h-full rounded-md border-solid border-2 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
                 </div>
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="message">Message</label>
-                  <textarea className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="message" name="message" value={formData.message} onChange={handleChange} required />
+                  <textarea className='h-full rounded-md border-solid border-2 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="message" name="message" value={formData.message} onChange={handleChange} required />
                 </div>
               </div>
               <Button type="submit" className="mt-4">Send Message</Button>
