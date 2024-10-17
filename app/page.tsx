@@ -1,12 +1,12 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import {Code } from "lucide-react"
+import { Code } from "lucide-react"
 import { JSX, SVGProps } from "react"
 
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen ">
-<img className="app" src="./bg.svg"  alt="bg"/>
+      <img className="app" src="./bg.svg" alt="bg" />
       <main className="flex-1">
         <section className="w-full  h-full py-24 md:py-24 lg:py-64 xl:py-42">
           <div className="container px-4 md:px-6">
@@ -77,25 +77,25 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl pb-6">
-                Technologies
+                  Technologies
                 </h2>
                 <div className="grid gap-10 sm:grid-cols-5 md:grid-cols-5">
 
-             
+
                   <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <img src="./icons/html.png" alt="" width={50}/>
+                    <img src="./icons/html.png" alt="" width={50} />
                   </div>
                   <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <img src="./icons/next.png" alt="" width={70}/>
+                    <img src="./icons/next.png" alt="" width={70} />
                   </div>
                   <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <img src="./icons/react.png" alt="" width={70}/>
+                    <img src="./icons/react.png" alt="" width={70} />
                   </div>
                   <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <img src="./icons/node.png" alt="" width={70}/>
+                    <img src="./icons/node.png" alt="" width={70} />
                   </div>
                   <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <img src="./icons/tw.png" alt="" width={70}/>
+                    <img src="./icons/tw.png" alt="" width={70} />
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        
+
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-gray-500 dark:text-gray-400">
