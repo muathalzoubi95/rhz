@@ -16,10 +16,10 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and MongoDB.",
+    title: "Text Editor",
+    description: "Text Editor s[[",
     image: "/placeholder.svg?height=200&width=300",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
+    tags: ["React", "Node.js", "Raduax Ui", "CSS"],
     githubUrl: "https://github.com/yourusername/ecommerce-platform",
     liveUrl: "https://ecommerce-platform-demo.vercel.app"
   },
@@ -97,7 +97,7 @@ function ProjectCard({ project }: { project: Project }) {
             GitHub
           </Link>
         </Button>
-        <Button variant="outline" size="sm" asChild>
+        <Button variant="outline" size="sm" asChild className="btn">
           <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
             <ExternalLink className="mr-2 h-4 w-4" />
             Live Demo
