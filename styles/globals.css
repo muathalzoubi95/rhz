@@ -115,15 +115,12 @@
     }
 
     100% {
-      transform: scale(1.7);
+      transform: scale(1.5);
 
     }
 
   }
-  .badge {
-    background: linear-gradient(135deg, #0071f357, #f81ce659) !important;
-    color: azure !important;
-  }
+
   @keyframes bg-pos {
     0% {
       background-color: rgb(255, 255, 255);
@@ -136,14 +133,6 @@
     }
   }
 
-  .btn {
-    background: linear-gradient(135deg, #0071f357, #f81ce659) !important;
-    color: azure !important;
-  }
-
-  .btn:hover {
-    background: linear-gradient(135deg, #f81ce5, #0070f3) !important;
-  }
 
 
 }

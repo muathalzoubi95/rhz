@@ -97,7 +97,7 @@ function ProjectCard({ project }: { project: Project }) {
             GitHub
           </Link>
         </Button>
-        <Button variant="outline" size="sm" asChild className="btn">
+        <Button variant="outline" size="sm" asChild className=" text-neutral-200 bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">
           <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
             <ExternalLink className="mr-2 h-4 w-4" />
             Live Demo

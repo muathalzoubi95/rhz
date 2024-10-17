@@ -12,15 +12,15 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h1 className="text-2xl font-bold tracking-tighter sm:text-2xl md:text-5xl lg:text-6xl/none">
-                  Hi, I'm Muath Alzoubi, Front-end Developer
+                <h1 className="text-2xl font-bold tracking-tighter sm:text-2xl md:text-5xl lg:text-6xl/none ">
+                  Hi, I'm Muath Alzoubi, <span className="bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">Front-end </span>Developer
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   I build responsive and dynamic web experiences.
                 </p>
               </div>
               <div className="space-x-4">
-                <Button className="btn">View My Work</Button>
+                <Button className="text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">View My Work</Button>
                 <Button variant="outline">Get in Touch</Button>
               </div>
             </div>
