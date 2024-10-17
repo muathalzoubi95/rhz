@@ -76,10 +76,7 @@
   }
 
   body {
-    font-feature-settings: "rlig" 1, "calt" 1;
-
     animation: bg-pos backwards 1 2s alternate;
-
   }
 
   .app {
