@@ -66,7 +66,7 @@ export default function ContactPage() {
                   <textarea className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="message" name="message" value={formData.message} onChange={handleChange} required />
                 </div>
               </div>
-              <Button type="submit" className="mt-4">Send Message</Button>
+              <Button type="submit" className="mt-6 text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">Send Message</Button>
             </form>
           </CardContent>
         </Card>
