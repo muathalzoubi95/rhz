@@ -1,7 +1,7 @@
 import Link from "next/link"
 export function SiteHeader() {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center">
+    <header className="top-0 z-30 w-full px-4 sm:fixed backdrop-blur bh-zinc-900/50 ">
 
   <div className="container mx-auto flex justify-between items-center">
     <Link className="flex items-center justify-center" href="#">

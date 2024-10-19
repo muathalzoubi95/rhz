@@ -12,10 +12,10 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h1 className="text-2xl font-bold tracking-tighter sm:text-2xl md:text-5xl lg:text-6xl/none ">
+                <h1 className="py-4 font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white md:text-6xl sm:text-3xl">
                   Hi, I'm Muath Alzoubi, <span className="text-black bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90% p-1 ">Front-end</span>Developer
                 </h1>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="mx-auto max-w-[700px] text-gray-500 md:text-l dark:text-gray-400">
                   I build responsive and dynamic web experiences.
                 </p>
               </div>
@@ -26,8 +26,8 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-32 lg:py-12 bg-gray-100 dark:bg-gray-900">
-          <div className="container px-4 md:px-6">
+        <section className="w-full py-12 md:py-32 lg:py-12 backdrop-blur">
+          <div className="container px-4 md:px-6 w-full px-4  ">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
               Skills
             </h2>
