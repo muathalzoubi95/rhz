@@ -73,10 +73,17 @@ export default function AboutMePage() {
             </p>
 
             <p>
-              When I'm not coding, you can find me hiking in the mountains, reading sci-fi novels, or
-              experimenting with new cooking recipes. I'm always open to new opportunities and collaborations,
-              so feel free to reach out!
+            I'm always seeking to stay up-to-date with the latest technologies and tools that can enhance my productivity and efficiency, while ensuring the highest quality in my projects.
             </p>
+            <div className="flex flex-wrap gap-2 pt-16">
+              {
+                siteConfig.technologies.map((i, index) =>
+                  <Badge key={index}>
+                    {i}
+                  </Badge>
+                )
+              }
+            </div>
           </CardContent>
         </Card>
 

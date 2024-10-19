@@ -19,10 +19,15 @@ const experiences: ExperienceItem[] = [
     title: "Front-End Developer",
     company: "Freelance.",
     location: "Amman, Jo",
-    period: "Jan 2021 - Present",
+    period: "Dec 2023 - Present",
     description: [
-      "Led a team of 5 developers in building a high-performance e-commerce platform",
-    
+      "Custom Web Solutions: Developed customized, responsive websites for clients using React.js, HTML, CSS, and JavaScript",
+      "API Integration: Integrated front-end applications with third-party APIs and RESTful services, ensuring smooth data flow between client and server",
+      "UI/UX Enhancement: Collaborated with clients to design and implement user-friendly interfaces, focusing on improving user experience and engagement",
+      "Responsive Design: Ensured that websites were optimized for mobile, tablet, and desktop, providing a seamless experience across all devices",
+      "Performance Optimization: Implemented best practices for code optimization, ensuring fast load times and efficient resource management",
+      "Component Reusability: Created modular and reusable components, increasing development efficiency and maintaining code consistency",
+      "Client Communication: Worked closely with clients to gather requirements, provide progress updates, and deliver projects on time and within budget"    
     ],
     skills: ["React", "Node.js", "AWS", "Docker", "Next.js"],
     type: "work"
@@ -31,7 +36,7 @@ const experiences: ExperienceItem[] = [
     title: "Front-End Developer",
     company: "LEADTOOLS Inc.",
     location: "Amman, Jo",
-    period: "Jun 2018 - Dec 2020",
+    period: "Jun 2020 - Dec 2023",
     description: [
       "HTML/CSS/JavaScript: Solid foundation in creating interactive and user-friendly web interfaces.",
       "Collaborated with UX designers to implement responsive and accessible interfaces" , 
@@ -46,26 +51,31 @@ const experiences: ExperienceItem[] = [
     title: "QA Engineer",
     company: "LEADTOOLS Inc.",
     location: "Amman, Jo",
-    period: "Sep 2016 - May 2018",
+    period: "Jun 2019 - Jun 2020",
     description: [
       "Assisted in the development of a social media management tool",
       "Implemented front-end features using Angular and integrated with RESTful APIs",
       "Participated in daily stand-ups and sprint planning meetings"
     ],
-    skills: ["HTML", "CSS", "JavaScript", "Angular", "RESTful APIs"],
+    skills: ["Windows","Linux", "macOS", "iOS", "Android", "Testing"],
     type: "work"
   },
   {
     title: "Bachelor of Science in CIS",
     company: "JUST University",
     location: "Irbid, Jo",
-    period: "Sep 2012 - May 2016",
+    period: "Jun 13 - May 2018",
     description: [
-      "Graduated with honors (GPA: 3.8/4.0)",
-      "Relevant coursework: Data Structures, Algorithms, Web Development, Database Systems",
-      "Senior project: Developed a machine learning model for predicting stock market trends"
+      "Information Management: Gained expertise in managing data as a valuable resource, ensuring its accuracy, security, and ntegrity",
+
+      "Systems Analysis and Design: Developed skills in analyzing and designing information systems, focusing on user-centric and scalable solutions",
+      "Automation and Process Efficiency: Studied ways to streamline processes and automate routine tasks to enhance organizational efficiency",
+      
+      "Data-Driven Decision Making: Acquired knowledge of using information systems for informed business decision-making through data analysis and business intelligence tools",
+      "Collaboration and Communication Systems: Learned how information systems facilitate collaboration, communication, and efficient information sharing across departments",
+      "Ethical Technology Use: Understand the importance of ethical considerations in information management, such as privacy, data protection, and intellectual property rights"
     ],
-    skills: ["Java", "Python", "Data Structures", "Algorithms", "Machine Learning"],
+    skills: ["Java", "C#", "Data Structures", "Algorithms", "Machine Learning"],
     type: "education"
   }
 ]

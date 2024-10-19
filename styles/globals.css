@@ -94,7 +94,11 @@
     z-index: -1;
 
   }
+.anim{
+  animation:  anim backwards  4s alternate;
+  animation-delay: 1s;
 
+}
   @keyframes anim {
     0% {
       opacity: 0;
@@ -111,7 +115,7 @@
 
   @keyframes scale {
     0% {
-      transform: scale(1);
+      transform: scale(3deg);
     }
 
     100% {
@@ -121,15 +125,16 @@
 
   }
 
-  @keyframes bg-pos {
+  @keyframes rotate {
     0% {
-      background-color: rgb(255, 255, 255);
-      color: rgb(0, 0, 0);
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(1deg);
     }
 
     100% {
-      color: rgb(106, 106, 106);
-      background-color: rgba(0, 0, 0, 0.0);
+      transform: rotate(0deg);
     }
   }
 

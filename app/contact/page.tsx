@@ -13,19 +13,9 @@ export default function ContactPage() {
     subject: '',
     message: ''
   })
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData(prevState => ({ ...prevState, [name]: value }))
-  }
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData)
-    // Reset form after submission
-    setFormData({ name: '', email: '', subject: '', message: '' })
-    alert('Thank you for your message. We will get back to you soon!')
   }
 
   return (
@@ -47,7 +37,7 @@ export default function ContactPage() {
             <CardDescription>Fill out the form below and we'll get back to you as soon as possible.</CardDescription>
           </CardHeader>
           <CardContent>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={(e)=>{}}>
               <div className="grid w-full items-center gap-4">
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="name">Name</label>
@@ -79,19 +69,19 @@ export default function ContactPage() {
           <CardContent className="space-y-4">
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>contact@example.com</span>
+              <span>moathaza@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+962 (78) 676-8262</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-4 w-4" />
-              <span>123 Main St, Anytown, USA 12345</span>
+              <span>Amman, Jordan</span>
             </div>
           </CardContent>
           <CardFooter>
-            <p className="text-sm text-muted-foreground">We're available Monday to Friday, 9am to 5pm EST.</p>
+            <p className="text-sm text-muted-foreground">Feel free to contact me any time</p>
           </CardFooter>
         </Card>
       </div>

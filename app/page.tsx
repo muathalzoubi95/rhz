@@ -6,22 +6,22 @@ import { JSX, SVGProps } from "react"
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen ">
-      <img className="app" src="./bg.svg" alt="bg" />
+      <img className="app " src="./bg.svg" alt="bg" />
       <main className="flex-1">
         <section className="w-full  h-full py-24 md:py-24 lg:py-64 xl:py-42">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
-              <div className="space-y-2">
+              <div className="space-y-2 anim">
                 <h1 className="py-4 font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white md:text-6xl sm:text-3xl">
                   Hi, I'm Muath Alzoubi, <span className="text-black bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90% p-1 ">Front-end</span>Developer
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-l dark:text-gray-400">
                   I build responsive and dynamic web experiences.
-                </p>
+                </p>s
               </div>
-              <div className="space-x-4">
+              <div className="space-x-4 anim">
                 <Button className="text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">View My Work</Button>
-                <Button variant="outline">Get in Touch</Button>
+              <Link href={'/'}>  <Button variant="outline">Get in Touch</Button></Link>
               </div>
             </div>
           </div>
