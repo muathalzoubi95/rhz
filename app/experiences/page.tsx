@@ -16,35 +16,36 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Innovators Inc.",
-    location: "San Francisco, CA",
+    title: "Front-End Developer",
+    company: "Freelance.",
+    location: "Amman, Jo",
     period: "Jan 2021 - Present",
     description: [
       "Led a team of 5 developers in building a high-performance e-commerce platform",
-      "Implemented microservices architecture, resulting in 40% improved scalability",
-      "Mentored junior developers and conducted code reviews to ensure best practices"
+    
     ],
-    skills: ["React", "Node.js", "AWS", "Docker", "Kubernetes"],
+    skills: ["React", "Node.js", "AWS", "Docker", "Next.js"],
     type: "work"
   },
   {
-    title: "Full Stack Developer",
-    company: "WebSolutions Co.",
-    location: "New York, NY",
+    title: "Front-End Developer",
+    company: "LEADTOOLS Inc.",
+    location: "Amman, Jo",
     period: "Jun 2018 - Dec 2020",
     description: [
-      "Developed and maintained multiple client websites using React and Express.js",
-      "Optimized database queries, improving application performance by 30%",
-      "Collaborated with UX designers to implement responsive and accessible interfaces"
+      "HTML/CSS/JavaScript: Solid foundation in creating interactive and user-friendly web interfaces.",
+      "Collaborated with UX designers to implement responsive and accessible interfaces" , 
+      "Version Control: Proficient in Git for version control and team collaboration.",
+      "API Integration: Experience integrating front-end applications with RESTful APIs.",
+      "Component Libraries: Familiarity with libraries like Material-UI, Ant Design, and Bootstrap for UI components."
     ],
     skills: ["JavaScript", "React", "Express.js", "MongoDB", "Git"],
     type: "work"
   },
   {
-    title: "Junior Web Developer",
-    company: "StartUp Dynamics",
-    location: "Austin, TX",
+    title: "QA Engineer",
+    company: "LEADTOOLS Inc.",
+    location: "Amman, Jo",
     period: "Sep 2016 - May 2018",
     description: [
       "Assisted in the development of a social media management tool",
@@ -55,9 +56,9 @@ const experiences: ExperienceItem[] = [
     type: "work"
   },
   {
-    title: "Bachelor of Science in Computer Science",
-    company: "Tech University",
-    location: "Boston, MA",
+    title: "Bachelor of Science in CIS",
+    company: "JUST University",
+    location: "Irbid, Jo",
     period: "Sep 2012 - May 2016",
     description: [
       "Graduated with honors (GPA: 3.8/4.0)",
@@ -106,9 +107,9 @@ export default function ExperiencePage() {
                 ))}
               </div>
               {exp.type === 'work' ? (
-                <Briefcase className="absolute top-6 right-6 h-6 w-6 text-muted-foreground" />
+                <Briefcase className=" top-6 right-6 h-6 w-6 text-muted-foreground pt-2" />
               ) : (
-                <GraduationCap className="absolute top-6 right-6 h-6 w-6 text-muted-foreground" />
+                <GraduationCap className=" top-6 right-6 h-6 w-6 text-muted-foreground pt-2" />
               )}
             </CardContent>
           </Card>

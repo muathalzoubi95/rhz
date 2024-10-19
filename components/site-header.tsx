@@ -10,16 +10,16 @@ export function SiteHeader() {
     </Link>
 
     <ul className="hidden md:flex space-x-6">
-    <Link  className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/projects">
+    <Link  className="text-sm font-small hover:underline underline-offset-4  decoration-sky-500 pt-3" href="/projects">
         Projects
       </Link>
-      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/experiences">
+      <Link className="text-sm font-small hover:underline underline-offset-4   decoration-indigo-500/30 pt-3" href="/experiences">
       Experiences
       </Link>
-      <Link className="text-sm font-small hover:underline underline-offset-4  pt-3" href="/aboutme">
+      <Link className="text-sm font-small hover:underline underline-offset-4  decoration-pink-500/30 pt-3" href="/aboutme">
         About me
       </Link>
-      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3" href="/contact">
+      <Link className="text-sm font-small hover:underline underline-offset-4 pt-3  decoration-green-500/30" href="/contact">
         Contact
       </Link>
     </ul>
