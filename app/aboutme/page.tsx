@@ -105,23 +105,6 @@ export default function AboutMePage() {
             </div>
           </CardContent>
         </Card>
-
-        <Card className="md:col-span-3">
-          <CardHeader>
-            <CardTitle>Technologies</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="flex flex-wrap gap-2">
-              {
-                siteConfig.technologies.map((i, index) =>
-                  <Badge key={index}>
-                    {i}
-                  </Badge>
-                )
-              }
-            </div>
-          </CardContent>
-        </Card>
       </div>
     </div>
   )

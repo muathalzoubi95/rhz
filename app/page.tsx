@@ -1,11 +1,15 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Code } from "lucide-react"
-import { JSX, SVGProps } from "react"
+import { Code, Users } from "lucide-react"
+import { JSX, SVGProps, useState } from "react"
+import { MessageSquare } from "lucide-react"
 
 export default function LandingPage() {
+  
   return (
+    <> 
     <div className="flex flex-col min-h-screen ">
+       
       <img className="app " src="./bg.svg" alt="bg" />
       <main className="flex-1">
         <section className="w-full  h-full py-24 md:py-24 lg:py-64 xl:py-42">
@@ -17,7 +21,7 @@ export default function LandingPage() {
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-l dark:text-gray-400">
                   I build responsive and dynamic web experiences.
-                </p>s
+                </p>
               </div>
               <div className="space-x-4 anim">
                 <Button className="text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">View My Work</Button>
@@ -121,7 +125,7 @@ export default function LandingPage() {
           </Link>
         </nav>
       </footer>
-    </div>
+    </div></>
   )
 }
 
