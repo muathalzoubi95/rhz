@@ -11,21 +11,10 @@ Welcome to my portfolio! I am **Muath**, a Front-End Developer with experience i
 - Web Performance Optimization
 - Cross-browser Compatibility
 
-## Projects
-Here are some of the projects I've worked on. Each showcases different aspects of my front-end expertise, from user interface design to complex functionality.
-
-1. **Project Name 1**  
-   A brief description of the project, the technologies used, and the problem it solves.
-
-2. **Project Name 2**  
-   A brief description of the project, the technologies used, and the problem it solves.
-
-3. **Project Name 3**  
-   A brief description of the project, the technologies used, and the problem it solves.
 
 ## Contact
 Feel free to reach out to discuss potential collaborations or freelance work:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Email**: [moathaza@gmail.com](mailto:moathaza@gmail.com)
+- **LinkedIn**: [Muath alzoubi](https://www.linkedin.com/in/muathalzoubi)
+- **GitHub**: [Your GitHub Profile](https://github.com/muathlzoubi)
