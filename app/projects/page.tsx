@@ -25,12 +25,12 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Weather App",
-    description: "A weather application using React and OpenWeatherMap API.",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Simple Images App",
+    description: "A Images application using React and OpenWeatherMap API.",
+    image: "/img-viewer.png",
     tags: ["React", "API Integration", "Tailwind CSS"],
-    githubUrl: "https://github.com/yourusername/weather-app",
-    liveUrl: "https://weather-app-demo.vercel.app"
+    githubUrl: "https://github.com/muathzoubi/simple-img-viewer",
+    liveUrl: "https://simple-img-viewer.vercel.app/"
   },
   {
     id: 3,
@@ -77,7 +77,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <Card className="flex flex-col h-full">
       <CardHeader>
-        <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
+        <img src={project.image} alt={project.title} className="w-full h-64 object-cover rounded-t-lg" />
         <CardTitle className="mt-4">{project.title}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
       </CardHeader>
