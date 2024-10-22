@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "muath.js",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    " This app is not ready to use i just test it ",
   mainNav: [
     {
       title: "Home",
@@ -11,9 +11,9 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "#",
+    github: "#",
+    docs: "#",
   },
   technologies:[
     "JavaScript",
