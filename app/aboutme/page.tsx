@@ -68,12 +68,15 @@ export default function AboutMePage() {
             <CardTitle>Biography</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-8">
-              Hello! I'm Muath Alzoubi, a passionate Front-end Developer with over 3 years of experience in creating dynamic and user-friendly web applications. I specialize in JavaScript technologies, particularly React.js, to build responsive and scalable solutions. With a strong foundation in web development, system workflow, and system analysis, I'm driven by the desire to continually improve user experiences and bring innovative ideas to life.
-            </p>
+            <p className="mb-4">
+              Hello! I'm Muath Alzoubi, a passionate Full-Stack Developer with over 3 years of experience in creating dynamic and user-friendly web applications. I specialize in JavaScript technologies, particularly React.js, to build responsive and scalable solutions. With a strong foundation in web development, system workflow, and system analysis, I'm driven by the desire to continually improve user experiences and bring innovative ideas to life.
 
+            </p>
+            <p className='mb-4'>
+              I have familiarity with back-end technologies, allowing you to work effectively across the full stack when needed. My back-end experience includes integrating APIs, handling server-side logic, and managing databases, giving me a well-rounded understanding of how front-end and back-end systems.
+            </p>
             <p>
-            I'm always seeking to stay up-to-date with the latest technologies and tools that can enhance my productivity and efficiency, while ensuring the highest quality in my projects.
+              I'm always seeking to stay up-to-date with the latest technologies and tools that can enhance my productivity and efficiency, while ensuring the highest quality in my projects.
             </p>
             <div className="flex flex-wrap gap-2 pt-16">
               {
