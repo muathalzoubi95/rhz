@@ -17,11 +17,11 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Text Editor",
-    description: "Text Editor s[[",
+    description: "Text Editor ",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["React", "Node.js", "Raduax Ui", "CSS"],
     githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    liveUrl: "https://ecommerce-platform-demo.vercel.app"
+    liveUrl: "https://editor-pad.vercel.app/"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Task Manager",
+    title: "Bookmarks Plus    ",
     description: "A task management application with drag-and-drop functionality.",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["React", "TypeScript", "Redux", "React DnD"],
