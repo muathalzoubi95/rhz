@@ -2,7 +2,7 @@ import "@/styles/globals.css"
 import { Metadata } from "next"
 
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
+import { Analytics } from "@vercel/analytics/react"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -37,6 +37,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <body
           className="min-h-screen bg-background font-sans antialiased"
         >
+          <Analytics/>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
