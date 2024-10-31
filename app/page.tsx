@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button"
 import { Code, Users } from "lucide-react"
 import { JSX, SVGProps, useState } from "react"
 import { MessageSquare } from "lucide-react"
-
+import { Analytics } from "@vercel/analytics/react"
 export default function LandingPage() {
   
   return (
     <> 
     <div className="flex flex-col min-h-screen ">
-       
+       <Analytics/>
       <img className="app " src="./bg.svg" alt="bg" />
       <main className="flex-1">
         <section className="w-full  h-full py-24 md:py-24 lg:py-64 xl:py-42">
@@ -17,7 +17,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2 anim">
                 <h1 className="py-4 font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white md:text-6xl sm:text-3xl">
-                  Hi, I'm Muath Alzoubi, <span className="text-black bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90% p-1 ">Full Stack</span>Developer
+                  Hi, I'm Muath Alzoubi, <span className="text-black bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90% p-1 ">Front-End</span>Developer
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-l dark:text-gray-400">
                   I build responsive and dynamic web experiences.
@@ -25,7 +25,7 @@ export default function LandingPage() {
               </div>
               <div className="space-x-4 anim">
                 <Button className="text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">View My Work</Button>
-              <Link href={'/actions0'}>  <Button variant="outline">Get in Touch</Button></Link>
+              <Link href={'/documentviewer'}>  <Button variant="outline">Get in Touch</Button></Link>
               </div>
             </div>
           </div>
