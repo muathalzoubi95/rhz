@@ -10,7 +10,7 @@ export function SiteHeader() {
       <aside className={`${hidden} md:hidden fixed h-full top-0 right-0 w-64 overflow-y-auto bg-gray-800 z-10`}>
         <nav className="mt-12">
           <ul className=" flex flex-col text-center ">
-            <Link className="text-sm font-small hover:underline underline-offset-4  decoration-sky-500 pt-3" href="/projects1" onClick={() => setHidden('hidden')}>
+            <Link className="text-sm font-small hover:underline underline-offset-4  decoration-sky-500 pt-3" href="/projects" onClick={() => setHidden('hidden')}>
               Projects
             </Link>
             <Link className="text-sm font-small hover:underline underline-offset-4   decoration-indigo-500/30 pt-3" href="/experiences" onClick={() => setHidden('hidden')}>
@@ -34,7 +34,7 @@ export function SiteHeader() {
           </Link>
 
           <ul className="hidden md:flex space-x-6">
-            <Link className="text-sm font-small hover:underline underline-offset-4  decoration-sky-500 pt-3" href="/projects1">
+            <Link className="text-sm font-small hover:underline underline-offset-4  decoration-sky-500 pt-3" href="/projects">
               Projects
             </Link>
             <Link className="text-sm font-small hover:underline underline-offset-4   decoration-indigo-500/30 pt-3" href="/experiences">
