@@ -48,8 +48,8 @@ const projects: Project[] = [
     description: "My personal portfolio website showcasing my projects and skills.",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/yourusername/portfolio",
-    liveUrl: "https://yourusername.dev"
+    githubUrl: "#",
+    liveUrl: "#"
   }
 ]
 

@@ -24,8 +24,8 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="space-x-4 anim">
-                <Button className="text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">View My Work</Button>
-              <Link href={'/documentviewer'}>  <Button variant="outline">Get in Touch</Button></Link>
+              <Link href={'/projects'}>     <Button className="text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">View My Work</Button></Link>
+              <Link href={'/'}>  <Button variant="outline">Get in Touch</Button></Link>
               </div>
             </div>
           </div>
