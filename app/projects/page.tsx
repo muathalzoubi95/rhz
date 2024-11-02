@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Github, ExternalLink, Home } from "lucide-react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Badge from "@/components/ui/badge"
 
 interface Project {
   id: number
@@ -37,9 +38,9 @@ const projects: Project[] = [
     title: "Bookmarks Plus    ",
     description: "A task management application with drag-and-drop functionality.",
     image: "/placeholder.svg?height=200&width=300",
-    tags: ["React", "TypeScript", "Redux", "React DnD"],
-    githubUrl: "https://github.com/yourusername/task-manager",
-    liveUrl: "https://task-manager-demo.vercel.app"
+    tags: ["React", "TypeScript", "UI", "Node"],
+    githubUrl: "https://bookmarks-plus-eight.vercel.app/",
+    liveUrl: "https://bookmarks-plus-eight.vercel.app/"
   },
   {
     id: 4,
@@ -84,9 +85,9 @@ function ProjectCard({ project }: { project: Project }) {
       <CardContent className="flex-grow">
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag) => (
-            <div key={tag} >
+            <Badge key={tag} >
               {tag}
-            </div>
+            </Badge>
           ))}
         </div>
       </CardContent>
