@@ -44,12 +44,12 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Portfolio Website",
+    title: "Merva AI",
     description: "My personal portfolio website showcasing my projects and skills.",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "#",
-    liveUrl: "#"
+    githubUrl: "https://github.com/yourusername/portfolio",
+    liveUrl: "https://merva-ai.vercel.app/"
   }
 ]
 
