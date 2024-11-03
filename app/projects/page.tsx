@@ -17,12 +17,12 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Text Editor",
-    description: "Text Editor ",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Point of Sales System",
+    description: "Point of Sales System ",
+    image: "/pos.png",
     tags: ["React", "Node.js", "Raduax Ui", "CSS"],
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    liveUrl: "https://editor-pad.vercel.app/"
+    githubUrl: "https://pos-sys-ebon.vercel.app/",
+    liveUrl: "https://pos-sys-ebon.vercel.app/"
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const projects: Project[] = [
     id: 3,
     title: "Bookmarks Plus    ",
     description: "A task management application with drag-and-drop functionality.",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/bk.png",
     tags: ["React", "TypeScript", "UI", "Node"],
     githubUrl: "https://bookmarks-plus-eight.vercel.app/",
     liveUrl: "https://bookmarks-plus-eight.vercel.app/"
@@ -46,7 +46,16 @@ const projects: Project[] = [
     id: 4,
     title: "Merva AI",
     description: "Merva AI Customer support system",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/ai.png",
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    githubUrl: "https://github.com/yourusername/portfolio",
+    liveUrl: "https://merva-ai.vercel.app/"
+  },
+  {
+    id: 6,
+    title: "Menu App",
+    description: "Menu App",
+    image: "/menu.png",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubUrl: "https://github.com/yourusername/portfolio",
     liveUrl: "https://merva-ai.vercel.app/"
