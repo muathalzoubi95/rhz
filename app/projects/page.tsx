@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: "Merva AI",
-    description: "My personal portfolio website showcasing my projects and skills.",
+    description: "Merva AI Customer support system",
     image: "/placeholder.svg?height=200&width=300",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubUrl: "https://github.com/yourusername/portfolio",
