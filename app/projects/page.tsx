@@ -58,7 +58,7 @@ const projects: Project[] = [
     image: "/menu.png",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubUrl: "https://github.com/yourusername/portfolio",
-    liveUrl: "https://merva-ai.vercel.app/"
+    liveUrl: "https://menu-me-theta.vercel.app/"
   }
 ]
 
