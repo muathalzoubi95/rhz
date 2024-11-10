@@ -79,7 +79,6 @@
 
   body {
     animation: bg-pos backwards 1 2s alternate;
-    
   }
 
   .app {
@@ -90,7 +89,6 @@
     bottom: 0;
     background-size: contain;
     animation: scale backwards infinite 12s alternate;
-
     z-index: -1;
 
   }
@@ -98,6 +96,13 @@
   animation:  anim backwards  4s alternate;
   animation-delay: 1s;
 
+}
+.shadow{
+  transition: all 0.7s;
+}
+.shadow:hover{
+  box-shadow: 0 0 13px #059669;
+  border-radius: 9px;
 }
   @keyframes anim {
     0% {
