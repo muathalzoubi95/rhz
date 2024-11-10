@@ -86,19 +86,19 @@ export default function LandingPage() {
                 <div className="grid gap-10 sm:grid-cols-5 md:grid-cols-5">
 
 
-                  <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <div className="flex flex-col items-center justify-center space-y-4 text-center p-3 shadow">
                     <img src="./icons/html.png" alt="" width={50} />
                   </div>
-                  <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <div className="flex flex-col items-center justify-center space-y-4 text-center p-3 shadow">
                     <img src="./icons/next.png" alt="" width={70} />
                   </div>
-                  <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <div className="flex flex-col items-center justify-center space-y-4 text-center p-3 shadow">
                     <img src="./icons/react.png" alt="" width={70} />
                   </div>
-                  <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <div className="flex flex-col items-center justify-center space-y-4 text-center p-3 shadow">
                     <img src="./icons/node.png" alt="" width={70} />
                   </div>
-                  <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <div className="flex flex-col items-center justify-center space-y-4 text-center p-3 shadow">
                     <img src="./icons/tw.png" alt="" width={70} />
                   </div>
                 </div>
