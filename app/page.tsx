@@ -1,8 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Code, Users } from "lucide-react"
-import { JSX, SVGProps, useState } from "react"
-import { MessageSquare } from "lucide-react"
 import { Analytics } from "@vercel/analytics/react"
 export default function LandingPage() {
   
