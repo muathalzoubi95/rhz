@@ -1,3 +1,4 @@
+'use cliant'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -6,8 +7,18 @@ import { Github, Linkedin, Mail, FileText, Home } from 'lucide-react'
 import { Progress } from '@/components/ui/progress'
 import Badge from '@/components/ui/badge'
 import { siteConfig } from '@/config/site'
+import { useState } from 'react'
+
+const For=(props:any)=>{
+  return (
+  <svg width="300" height="170" xmlns="http://www.w3.org/2000/svg">
+    <rect width="150" height="150" x="10" y="10" style={{fill:'red',stroke:'pink'}} />
+  </svg>)
+}
 
 export default function AboutMePage() {
+  const [x,setX]=useState(0)
+  const [y,setY]=useState(0)
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="flex justify-between items-center mb-8">

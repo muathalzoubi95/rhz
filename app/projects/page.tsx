@@ -59,6 +59,15 @@ const projects: Project[] = [
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
     githubUrl: "https://github.com/yourusername/portfolio",
     liveUrl: "https://menu-me-theta.vercel.app/"
+  },
+  {
+    id: 6,
+    title: "Short Link App",
+    description: "Short Link App",
+    image: "/short.png",
+    tags: ["React.js", "CSS", "Firebase"],
+    githubUrl: "https://github.com/s",
+    liveUrl: "https://short-link-app-eta.vercel.app/"
   }
 ]
 
