@@ -26,12 +26,12 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Web desgin app",
+    title: "Point of Sales app",
     description: "Point of Sales System ",
     image: "/pos.png",
     tags: ["React", "Node.js", "Raduax Ui", "CSS"],
-    githubUrl: "https://pos-sys-ebon.vercel.app/",
-    liveUrl: "https://pos-sys-ebon.vercel.app/"
+    githubUrl: "https://possys-app.netlify.app/",
+    liveUrl: "https://possys-app.netlify.app/"
   },
   {
     id: 3,
@@ -76,7 +76,7 @@ const projects: Project[] = [
     image: "/short.png",
     tags: ["React.js", "CSS", "Firebase"],
     githubUrl: "https://github.com/s",
-    liveUrl: "https://short-link-app-eta.vercel.app/"
+    liveUrl: "https://shortlinks-app.netlify.app/"
   },
   {
     id: 9,
