@@ -17,7 +17,16 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Point of Sales System",
+    title: "Design wave page ",
+    description: "Design wave page   ",
+    image: "/next.svg",
+    tags: ["React", "Node.js", " Ui", "CSS"],
+    githubUrl: "https://designwaveapp.netlify.app/",
+    liveUrl: "https://designwaveapp.netlify.app/"
+  },
+  {
+    id: 2,
+    title: "Web desgin app",
     description: "Point of Sales System ",
     image: "/pos.png",
     tags: ["React", "Node.js", "Raduax Ui", "CSS"],
@@ -25,16 +34,16 @@ const projects: Project[] = [
     liveUrl: "https://pos-sys-ebon.vercel.app/"
   },
   {
-    id: 2,
-    title: "Simple Images App",
-    description: "A Images application using React and OpenWeatherMap API.",
-    image: "/img-viewer.png",
+    id: 3,
+    title: "Web desgin app",
+    description: "A Web desgin app application using Next.j ",
+    image: "/next.svg",
     tags: ["React", "API Integration", "Tailwind CSS"],
-    githubUrl: "https://github.com/muathzoubi/simple-img-viewer",
-    liveUrl: "https://simple-img-viewer.vercel.app/"
+    githubUrl: "https://web-desgin-app.netlify.app/",
+    liveUrl: "https://web-desgin-app.netlify.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Bookmarks Plus    ",
     description: "A task management application with drag-and-drop functionality.",
     image: "/bk.png",
@@ -43,7 +52,7 @@ const projects: Project[] = [
     liveUrl: "https://bookmarks-plus-eight.vercel.app/"
   },
   {
-    id: 4,
+    id:5,
     title: "Merva AI",
     description: "Merva AI Customer support system",
     image: "/ai.png",
@@ -52,7 +61,7 @@ const projects: Project[] = [
     liveUrl: "https://merva-ai.vercel.app/"
   },
   {
-    id: 6,
+    id: 7,
     title: "Menu App",
     description: "Menu App",
     image: "/menu.png",
@@ -61,13 +70,22 @@ const projects: Project[] = [
     liveUrl: "https://menu-me-theta.vercel.app/"
   },
   {
-    id: 6,
+    id: 8,
     title: "Short Link App",
     description: "Short Link App",
     image: "/short.png",
     tags: ["React.js", "CSS", "Firebase"],
     githubUrl: "https://github.com/s",
     liveUrl: "https://short-link-app-eta.vercel.app/"
+  },
+  {
+    id: 9,
+    title: "My Portfolio  App",
+    description: "My Portfolio App",
+    image: "/next.svg",
+    tags: ["React.js", "CSS", "Firebase"],
+    githubUrl: "https://muathalzoubi.netlify.app",
+    liveUrl: "https://muathalzoubi.netlify.app"
   }
 ]
 
