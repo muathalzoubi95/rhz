@@ -57,8 +57,8 @@ const projects: Project[] = [
     description: "Merva AI Customer support system",
     image: "/ai.png",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/yourusername/portfolio",
-    liveUrl: "https://merva-ai.vercel.app/"
+    githubUrl: "https://merva-ai.netlify.app/",
+    liveUrl: "https://merva-ai.netlify.app/"
   },
   {
     id: 7,
