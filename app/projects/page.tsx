@@ -46,7 +46,7 @@ const projects: Project[] = [
     id: 4,
     title: "Invest Plus App    ",
     description: "nvest Plus web App .",
-    image: "/bk.png",
+    image: "/next.svg",
     tags: ["React", "TypeScript", "UI", "Node"],
     githubUrl: "https://app-investment.netlify.app/",
     liveUrl: "https://app-investment.netlify.app/"
