@@ -44,12 +44,12 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Bookmarks Plus    ",
-    description: "A task management application with drag-and-drop functionality.",
+    title: "Invest Plus App    ",
+    description: "nvest Plus web App .",
     image: "/bk.png",
     tags: ["React", "TypeScript", "UI", "Node"],
-    githubUrl: "https://bookmarks-plus-eight.vercel.app/",
-    liveUrl: "https://bookmarks-plus-eight.vercel.app/"
+    githubUrl: "https://app-investment.netlify.app/",
+    liveUrl: "https://app-investment.netlify.app/"
   },
   {
     id:5,
