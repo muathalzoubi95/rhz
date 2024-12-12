@@ -19,7 +19,7 @@ const projects: Project[] = [
     id: 1,
     title: "Design wave page ",
     description: "Design wave page   ",
-    image: "/next.svg",
+    image: "/wave.avif",
     tags: ["React", "Node.js", " Ui", "CSS"],
     githubUrl: "https://designwaveapp.netlify.app/",
     liveUrl: "https://designwaveapp.netlify.app/"
@@ -37,7 +37,7 @@ const projects: Project[] = [
     id: 3,
     title: "Web desgin app",
     description: "A Web desgin app application using Next.j ",
-    image: "/next.svg",
+    image: "/web.png",
     tags: ["React", "API Integration", "Tailwind CSS"],
     githubUrl: "https://web-desgin-app.netlify.app/",
     liveUrl: "https://web-desgin-app.netlify.app/"
@@ -46,7 +46,7 @@ const projects: Project[] = [
     id: 4,
     title: "Invest Plus App    ",
     description: "nvest Plus web App .",
-    image: "/next.svg",
+    image: "/inv.avif",
     tags: ["React", "TypeScript", "UI", "Node"],
     githubUrl: "https://app-investment.netlify.app/",
     liveUrl: "https://app-investment.netlify.app/"
@@ -82,7 +82,7 @@ const projects: Project[] = [
     id: 9,
     title: "My Portfolio  App",
     description: "My Portfolio App",
-    image: "/next.svg",
+    image: "/me.avif",
     tags: ["React.js", "CSS", "Firebase"],
     githubUrl: "https://muathalzoubi.netlify.app",
     liveUrl: "https://muathalzoubi.netlify.app"
