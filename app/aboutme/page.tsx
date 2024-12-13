@@ -80,7 +80,7 @@ export default function AboutMePage() {
           </CardHeader>
           <CardContent>
             <p className="mb-4">
-              Hello! I'm Muath Alzoubi, a passionate Full-Stack Developer with over 3 years of experience in creating dynamic and user-friendly web applications. I specialize in JavaScript technologies, particularly React.js, to build responsive and scalable solutions. With a strong foundation in web development, system workflow, and system analysis, I'm driven by the desire to continually improve user experiences and bring innovative ideas to life.
+              Hello! I'm Muath Alzoubi, a passionate Front-End Developer with over 3 years of experience in creating dynamic and user-friendly web applications. I specialize in JavaScript technologies, particularly React.js, to build responsive and scalable solutions. With a strong foundation in web development, system workflow, and system analysis, I'm driven by the desire to continually improve user experiences and bring innovative ideas to life.
 
             </p>
             <p className='mb-4'>
