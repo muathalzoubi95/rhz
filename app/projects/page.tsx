@@ -86,7 +86,24 @@ const projects: Project[] = [
     tags: ["React.js", "CSS", "Firebase"],
     githubUrl: "https://muathalzoubi.netlify.app",
     liveUrl: "https://muathalzoubi.netlify.app"
-  }
+  }, {
+    id: 10,
+    title: "Normar Dental Lab",
+    tags: ["React.js", "Next.js", "Tailwind CSS"],
+    image: "/normar.avif",
+    description: "Normar Dental Lab",
+    githubUrl: "https://normar.netlify.app/",
+
+    liveUrl: "https://normar.netlify.app/"
+}, {
+    id: 11,
+    title: "BAbalous Site",
+    tags: ["Next.js", "CSS", "Tailwind CSS"],
+    description: "BAbalous App",
+    image: "/bab.avif",
+    githubUrl: "https://babalous.netlify.app",
+    liveUrl: "https://babalous.netlify.app/"
+}
 ]
 
 export default function ProjectsPage() {
