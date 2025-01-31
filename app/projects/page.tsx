@@ -41,6 +41,14 @@ const projects: Project[] = [
     tags: ["React", "API Integration", "Tailwind CSS"],
     githubUrl: "https://web-desgin-app.netlify.app/",
     liveUrl: "https://web-desgin-app.netlify.app/"
+  },  {
+    id: 1,
+    title: "RED Neon page ",
+    description: "RED Neon page     ",
+    image: "/red.jpeg",
+    tags: ["Next.js", "Node.js", " Ui", "CSS"],
+    githubUrl: "https://redappport.netlify.app/",
+    liveUrl: "https://redappport.netlify.app/"
   },
   {
     id: 4,
@@ -62,31 +70,49 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    title: "Menu App",
-    description: "Menu App",
-    image: "/menu.png",
+    title: "Editor App",
+    description: "MeEditornu App",
+    image: "/edito.webp",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    githubUrl: "https://github.com/yourusername/portfolio",
-    liveUrl: "https://menu-me-theta.vercel.app/"
+    githubUrl: "https://recteditor.netlify.app/",
+    liveUrl: "https://recteditor.netlify.app/"
   },
   {
-    id: 8,
-    title: "Short Link App",
+    id: 18,
+    title: "Short Link App 1",
     description: "Short Link App",
     image: "/short.png",
     tags: ["React.js", "CSS", "Firebase"],
     githubUrl: "https://github.com/s",
     liveUrl: "https://shortlinks-app.netlify.app/"
+  }, {
+    id: 8,
+    title: "Short Link App 2",
+    description: "Short Link App",
+    image: "/short2.jpeg",
+    tags: ["React.js", "CSS", "Firebase"],
+    githubUrl: "https://bascashortlinks.netlify.app/",
+    liveUrl: "https://bascashortlinks.netlify.app/"
   },
   {
     id: 9,
     title: "My Portfolio  App",
     description: "My Portfolio App",
     image: "/me.avif",
-    tags: ["React.js", "CSS", "Firebase"],
+    tags: ["React.js", "CSS", "Next"],
     githubUrl: "https://muathalzoubi.netlify.app",
     liveUrl: "https://muathalzoubi.netlify.app"
-  }, {
+  },   
+  {
+    id: 19,
+    title: "REEZ  App",
+    description: "REEZ tools app",
+    image: "/reez.jpeg",
+    tags: ["React.js", "CSS", "Next"],
+    githubUrl: "https://reezapp.netlify.app",
+    liveUrl: "https://reezapp.netlify.app"
+  },
+  {
     id: 10,
     title: "Normar Dental Lab",
     tags: ["React.js", "Next.js", "Tailwind CSS"],
