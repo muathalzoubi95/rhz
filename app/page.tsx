@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Code, Users } from "lucide-react"
 import { Analytics } from "@vercel/analytics/react"
+import GoogleAdsConversion from "@/components/gtag"
 export default function LandingPage() {
   
   return (
@@ -123,6 +124,8 @@ export default function LandingPage() {
           </Link>
         </nav>
       </footer>
+      <GoogleAdsConversion />
+
     </div></>
   )
 }
