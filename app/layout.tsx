@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
+import Script from "next/script"
 
 export const metadata: Metadata = {
   title: {
@@ -45,6 +46,15 @@ export default function RootLayout({ children }: RootLayoutProps) {
             </div>
             <TailwindIndicator />
           </ThemeProvider>
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=AW-17043763058`} strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17043763058');
+          `}
+        </Script>
         </body>
       </html>
     </>
