@@ -34,7 +34,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head >
-        </head>
+        <Script defer src="https://shown.io/metrics/jE3kaWYm9Z" type="text/javascript"></Script>
+          
+                  </head>
         <body
           className="min-h-screen bg-background font-sans antialiased"
         >
