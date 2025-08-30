@@ -14,7 +14,7 @@ export default function GoogleAdsConversion() {
     // Make sure gtag is available
     if (typeof window.gtag !== "undefined") {
       window.gtag("event", "conversion", {
-        send_to: "AW-17043763058/2mzmCJv8078aEPLejL8_",
+        send_to: "AW-17380226290/2mzmCJv8078aEPLejL8_",
       })
     }
   }, [])
@@ -22,13 +22,13 @@ export default function GoogleAdsConversion() {
   return (
     <>
       {/* Base Google Ads script - add this in your layout if not already present */}
-      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17043763058" strategy="afterInteractive" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17380226290" strategy="afterInteractive" />
       <Script id="google-ads-init" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-17043763058');
+          gtag('config', 'AW-17380226290');
         `}
       </Script>
     </>
