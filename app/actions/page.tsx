@@ -57,8 +57,8 @@ export default function VirtualTour() {
   }
 
   return (
-    <div className="container mx-auto p-4 max-w-3xl ">
-      <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center p-6">
+    <div className="container mx-auto max-w-3xl p-4 ">
+      <h2 className="p-6 text-center text-3xl font-bold tracking-tighter sm:text-5xl">
                 Projects
                 </h2>
       <div className="relative overflow-hidden">
@@ -66,21 +66,21 @@ export default function VirtualTour() {
           <img
             src={viewpoints[currentViewpoint].image}
             alt={viewpoints[currentViewpoint].title}
-            className="w-full h-[400px] object-cover"
+            className="h-[400px] w-full object-cover"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-between">
+          <div className="absolute left-0 top-0 flex size-full items-center justify-between bg-black bg-opacity-50">
             <Button variant="ghost" size="icon" onClick={prevViewpoint} className="text-white">
-              <ChevronLeft className="h-8 w-8" />
+              <ChevronLeft className="size-8" />
               <span className="sr-only">Previous viewpoint</span>
             </Button>
             <Button variant="ghost" size="icon" onClick={nextViewpoint} className="text-white">
-              <ChevronRight className="h-8 w-8" />
+              <ChevronRight className="size-8" />
               <span className="sr-only">Next viewpoint</span>
             </Button>
           </div>
-          <div className="absolute bottom-4 left-4 right-4">
+          <div className="absolute inset-x-4 bottom-4">
             <Button variant="secondary" size="sm" onClick={toggleInfo} className="w-full">
-              <Info className="mr-2 h-4 w-4" />
+              <Info className="mr-2 size-4" />
               {showInfo ? "Hide Info" : "Show Info"}
             </Button>
           </div>
@@ -89,7 +89,7 @@ export default function VirtualTour() {
       {showInfo && (
         <div className="mt-4">
           <div className="p-4">
-            <h2 className="text-xl font-semibold mb-2">{viewpoints[currentViewpoint].title}</h2>
+            <h2 className="mb-2 text-xl font-semibold">{viewpoints[currentViewpoint].title}</h2>
             <p>{viewpoints[currentViewpoint].description}</p>
           </div>
         </div>

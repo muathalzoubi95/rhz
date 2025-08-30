@@ -83,11 +83,11 @@ const experiences: ExperienceItem[] = [
 export default function ExperiencePage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="flex justify-between items-center mb-8">
+      <header className="mb-8 flex items-center justify-between">
         <h1 className="text-3xl font-bold">My Experience</h1>
         <Link href="/" passHref>
           <Button variant="outline" size="sm">
-            <Home className="mr-2 h-4 w-4" />
+            <Home className="mr-2 size-4" />
             Back to Home
           </Button>
         </Link>
@@ -106,7 +106,7 @@ export default function ExperiencePage() {
               </div>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc pl-5 mb-4 space-y-2">
+              <ul className="mb-4 list-disc space-y-2 pl-5">
                 {exp.description.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
@@ -117,9 +117,9 @@ export default function ExperiencePage() {
                 ))}
               </div>
               {exp.type === 'work' ? (
-                <Briefcase className=" top-6 right-6 h-6 w-6 text-muted-foreground pt-2" />
+                <Briefcase className=" right-6 top-6 size-6 pt-2 text-muted-foreground" />
               ) : (
-                <GraduationCap className=" top-6 right-6 h-6 w-6 text-muted-foreground pt-2" />
+                <GraduationCap className=" right-6 top-6 size-6 pt-2 text-muted-foreground" />
               )}
             </CardContent>
           </Card>

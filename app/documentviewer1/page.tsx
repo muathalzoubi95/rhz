@@ -55,19 +55,19 @@ export default function DocumentViewer() {
 
   return (
     <div className="flex flex-col  bg-background pt-6 ">
-      <header className="flex items-center justify-between px-4 py-2 border-b">
+      <header className="flex items-center justify-between border-b px-4 py-2">
         <div className="flex items-center space-x-2">
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
-                <List className="h-4 w-4" />
+                <List className="size-4" />
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
                 <SheetTitle>Table of Contents</SheetTitle>
               </SheetHeader>
-              <ScrollArea className="h-[calc(100vh-8rem)] mt-4">
+              <ScrollArea className="mt-4 h-[calc(100vh-8rem)]">
                 {tableOfContents.map((item) => (
                   <Button
                     key={item.id}
@@ -87,7 +87,7 @@ export default function DocumentViewer() {
             max={documentPages.length}
             value={currentPage}
             onChange={(e) => handlePageChange(parseInt(e.target.value))}
-            className="w-16  text-white py-1 shadow leading-tight focus:outline-none focus:shadow-outline "
+            className="focus:shadow-outline  w-16 py-1 leading-tight text-white shadow focus:outline-none "
           />
           <span className="text-sm text-muted-foreground">
             of {documentPages.length}
@@ -95,7 +95,7 @@ export default function DocumentViewer() {
         </div>
         <div className="flex items-center space-x-2">
           <Button variant="outline" size="icon" onClick={() => handleZoomChange([zoomLevel - 10])}>
-            <ZoomOut className="h-4 w-4" />
+            <ZoomOut className="size-4" />
           </Button>
           <Slider
             min={50}
@@ -106,36 +106,36 @@ export default function DocumentViewer() {
             className="w-[100px]"
           />
           <Button variant="outline" size="icon" onClick={() => handleZoomChange([zoomLevel + 10])}>
-            <ZoomIn className="h-4 w-4" />
+            <ZoomIn className="size-4" />
           </Button>
           <Button variant="outline" size="icon" onClick={toggleFullscreen}>
-            {isFullscreen ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
+            {isFullscreen ? <Minimize2 className="size-4" /> : <Maximize2 className="size-4" />}
           </Button>
           <Button variant="outline" size="icon">
-            <Download className="h-4 w-4" />
+            <Download className="size-4" />
           </Button>
         </div>
       </header>
       <main className="flex-1 overflow-auto p-4">
         <div
-          className="bg-white rounded-lg shadow-lg p-8 mx-auto transition-all  text-black duration-200 ease-in-out"
+          className="mx-auto rounded-lg bg-white p-8 text-black shadow-lg  transition-all duration-200 ease-in-out"
           style={{
             zoom: `${zoomLevel}%`,
             maxWidth: '700px',
             minHeight: '750px',
           }}
         >
-          <h2 className="text-2xl font-bold mb-4">Page {currentPage}</h2>
+          <h2 className="mb-4 text-2xl font-bold">Page {currentPage}</h2>
           <p className="text-lg leading-relaxed">{documentPages[currentPage - 1].content}</p>
         </div>
       </main>
-      <footer className="flex items-center bg-gray-8000 justify-between px-4 py-2 border-t fixed bottom-0 left-0 right-0">
+      <footer className="bg-gray-8000 fixed inset-x-0 bottom-0 flex items-center justify-between border-t px-4 py-2">
         <Button
           variant="outline"
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
         >
-          <ChevronLeft className="h-4 w-4 mr-2" />
+          <ChevronLeft className="mr-2 size-4" />
           Previous
         </Button>
         <div className="flex items-center space-x-2">
@@ -145,7 +145,7 @@ export default function DocumentViewer() {
             className="w-64"
           />
           <Button variant="outline" size="icon">
-            <Search className="h-4 w-4" />
+            <Search className="size-4" />
           </Button>
         </div>
         <Button
@@ -154,7 +154,7 @@ export default function DocumentViewer() {
           disabled={currentPage === documentPages.length}
         >
           Next
-          <ChevronRight className="h-4 w-4 ml-2" />
+          <ChevronRight className="ml-2 size-4" />
         </Button>
       </footer>
     </div>

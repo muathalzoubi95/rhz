@@ -20,17 +20,17 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="flex justify-between items-center mb-8">
+      <header className="mb-8 flex items-center justify-between">
         <h1 className="text-3xl font-bold">Contact Us</h1>
         <Link href="/" passHref>
           <Button variant="outline" size="sm">
-            <Home className="mr-2 h-4 w-4" />
+            <Home className="mr-2 size-4" />
             Back to Home
           </Button>
         </Link>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <Card>
           <CardHeader>
             <CardTitle>Send Us a Message</CardTitle>
@@ -41,22 +41,22 @@ export default function ContactPage() {
               <div className="grid w-full items-center gap-4">
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="name">Name</label>
-                  <input className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="name" name="name" value={formData.name} onChange={handleChange} required />
+                  <input className='border-1 h-full rounded-md py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="name" name="name" value={formData.name} onChange={handleChange} required />
                 </div>
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="email">Email</label>
-                  <input className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
+                  <input className='border-1 h-full rounded-md py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
                 </div>
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="subject">Subject</label>
-                  <input className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
+                  <input className='border-1 h-full rounded-md py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
                 </div>
                 <div className="flex flex-col space-y-1.5">
                   <label htmlFor="message">Message</label>
-                  <textarea className='h-full rounded-md border-1 py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="message" name="message" value={formData.message} onChange={handleChange} required />
+                  <textarea className='border-1 h-full rounded-md py-3 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm' id="message" name="message" value={formData.message} onChange={handleChange} required />
                 </div>
               </div>
-              <Button type="submit" className="mt-6 text-white bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">Send Message</Button>
+              <Button type="submit" className="mt-6 bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90% text-white">Send Message</Button>
             </form>
           </CardContent>
         </Card>
@@ -68,15 +68,15 @@ export default function ContactPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Mail className="h-4 w-4" />
+              <Mail className="size-4" />
               <span>moathaza@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
-              <Phone className="h-4 w-4" />
+              <Phone className="size-4" />
               <span>+962 (78) 676-8262</span>
             </div>
             <div className="flex items-center space-x-2">
-              <MapPin className="h-4 w-4" />
+              <MapPin className="size-4" />
               <span>Amman, Jordan</span>
             </div>
           </CardContent>

@@ -135,16 +135,16 @@ const projects: Project[] = [
 export default function ProjectsPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="flex justify-between items-center mb-8">
+      <header className="mb-8 flex items-center justify-between">
         <h1 className="text-3xl font-bold">My Projects</h1>
         <Link href="/" passHref>
           <Button variant="outline" size="sm">
-            <Home className="mr-2 h-4 w-4" />
+            <Home className="mr-2 size-4" />
             Back to Home
           </Button>
         </Link>
       </header>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
@@ -155,13 +155,13 @@ export default function ProjectsPage() {
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <Card className="flex flex-col h-full">
+    <Card className="flex h-full flex-col">
       <CardHeader>
-        <img src={project.image} alt={project.title} className="w-full h-64 object-cover rounded-t-lg" />
+        <img src={project.image} alt={project.title} className="h-64 w-full rounded-t-lg object-cover" />
         <CardTitle className="mt-4">{project.title}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
       </CardHeader>
-      <CardContent className="flex-grow">
+      <CardContent className="grow">
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag) => (
             <Badge key={tag} >
@@ -173,13 +173,13 @@ function ProjectCard({ project }: { project: Project }) {
       <CardFooter className="flex justify-between">
         <Button variant="outline" size="sm" asChild>
           <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-            <Github className="mr-2 h-4 w-4" />
+            <Github className="mr-2 size-4" />
             GitHub
           </Link>
         </Button>
-        <Button variant="outline" size="sm" asChild className=" text-neutral-200 bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90%">
+        <Button variant="outline" size="sm" asChild className=" bg-gradient-to-r from-indigo-400 from-10% via-sky-500 via-30% to-emerald-600 to-90% text-neutral-200">
           <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-            <ExternalLink className="mr-2 h-4 w-4" />
+            <ExternalLink className="mr-2 size-4" />
             Live Demo
           </Link>
         </Button>

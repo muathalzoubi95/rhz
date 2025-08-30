@@ -21,17 +21,17 @@ export default function AboutMePage() {
   const [y,setY]=useState(0)
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="flex justify-between items-center mb-8">
+      <header className="mb-8 flex items-center justify-between">
         <h1 className="text-3xl font-bold">About Me</h1>
         <Link href="/" passHref>
           <Button variant="outline" size="sm">
-            <Home className="mr-2 h-4 w-4" />
+            <Home className="mr-2 size-4" />
             Back to Home
           </Button>
         </Link>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         <Card className="md:col-span-1">
           <CardContent className="pt-6">
             <div className="flex flex-col items-center">
@@ -40,32 +40,32 @@ export default function AboutMePage() {
                 alt="Profile Picture"
                 width={200}
                 height={200}
-                className="rounded-full mb-4"
+                className="mb-4 rounded-full"
               />
-              <h2 className="text-2xl font-bold mb-2">Muath A. Alzoubi</h2>
-              <p className="text-muted-foreground mb-4">Front-end Developer</p>
+              <h2 className="mb-2 text-2xl font-bold">Muath A. Alzoubi</h2>
+              <p className="mb-4 text-muted-foreground">Front-end Developer</p>
               <div className="flex space-x-2">
                 <Button variant="outline" size="icon" asChild>
                   <Link href="#" target="_blank" rel="noopener noreferrer">
-                    <Github className="h-4 w-4" />
+                    <Github className="size-4" />
                     <span className="sr-only">GitHub</span>
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <Link href="#" target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="h-4 w-4" />
+                    <Linkedin className="size-4" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <Link href="mailto:moathaza@gmail.com">
-                    <Mail className="h-4 w-4" />
+                    <Mail className="size-4" />
                     <span className="sr-only">Email</span>
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                    <FileText className="h-4 w-4" />
+                    <FileText className="size-4" />
                     <span className="sr-only">Resume</span>
                   </Link>
                 </Button>
@@ -106,7 +106,7 @@ export default function AboutMePage() {
             <CardTitle>Skills</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               {siteConfig.skills.map((i, index) =>
 
                 <div className="space-y-2">
