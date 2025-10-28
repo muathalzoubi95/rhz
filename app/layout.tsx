@@ -48,13 +48,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
             </div>
             <TailwindIndicator />
           </ThemeProvider>
-          <Script src={`https://www.googletagmanager.com/gtag/js?id=AW-17043763058`} strategy="afterInteractive" />
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=AW-10860808864`} strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17043763058');
+            gtag('config', 'AW-10860808864');
           `}
         </Script>
         </body>
