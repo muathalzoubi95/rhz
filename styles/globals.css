@@ -8,6 +8,10 @@
   font-family: "Ubuntu", sans-serif !important;
 
 }
+body{
+  cursor: url('/cursor.png') !important;
+
+}
 
 @layer base {
   :root {

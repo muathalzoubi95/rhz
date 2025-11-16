@@ -7,6 +7,7 @@ import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 import Script from "next/script"
+import { CrispChat } from "@/components/crisp"
 
 export const metadata: Metadata = {
   title: {
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           className="min-h-screen bg-background font-sans antialiased"
         >
           <Analytics/>
+          <CrispChat/>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
