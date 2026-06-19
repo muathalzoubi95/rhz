@@ -2,8 +2,27 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "MZ.js",
+  fullName: "Muath Alzoubi",
+  jobTitle: "Front-End Developer",
+  url: "https://muathalzoubi.replit.app",
+  ogImage: "/opengraph.jpg",
+  locale: "en_US",
+  keywords: [
+    "Muath Alzoubi",
+    "Front-End Developer",
+    "React Developer",
+    "Next.js Developer",
+    "JavaScript Developer",
+    "TypeScript Developer",
+    "Web Developer",
+    "Frontend Engineer",
+    "React.js Portfolio",
+    "UI Developer",
+    "Tailwind CSS",
+    "Jordan Developer",
+  ],
   description:
-    "As a skilled front-end developer with 3 years of experience, I specialize in creating responsive and dynamic user interfaces using React.js. From concept to deployment, I deliver seamless and engaging web experiences, focusing on performance, accessibility, and modern design principles.",
+    "As a skilled front-end developer with more than 4 years of experience, I specialize in creating responsive and dynamic user interfaces using React.js. From concept to deployment, I deliver seamless and engaging web experiences, focusing on performance, accessibility, and modern design principles.",
   mainNav: [
     {
       title: "Home",
@@ -12,8 +31,10 @@ export const siteConfig = {
   ],
   links: {
     twitter: "#",
-    github: "#",
+    github: "https://github.com/muathalzoubi95",
     docs: "#",
+    linkedin: "https://jo.linkedin.com/in/muath-alzoubi-82b020170",
+    email: "mailto:moathaza@gmail.com",
   },
   technologies:[
     "JavaScript",
@@ -30,28 +51,29 @@ export const siteConfig = {
     "Git",
   ],
   skills:[
-    {
-      name:'JavaScript/TypeScript',
-      progress:95,
-    },
-    {
-      name:'React',
-      progress:95,
-    },
-    {
-      name:'Next.js',
-      progress:85,
-    },
-    {
-      name:'Node.js',
-      progress:80,
-    },
-    {
-      name:'HTML/CSS',
-      progress:95,
-    },   {
-      name:'jQuery ',
-      progress:90,
-    },
+    { name:'JavaScript/TypeScript', progress:95 },
+    { name:'React', progress:95 },
+    { name:'Next.js', progress:85 },
+    { name:'Node.js', progress:80 },
+    { name:'HTML/CSS', progress:95 },
+    { name:'jQuery', progress:90 },
+    { name:'Tailwind CSS', progress:92 },
+    { name:'Redux / Zustand', progress:88 },
+    { name:'React Query', progress:85 },
+    { name:'Vite', progress:88 },
+    { name:'Express.js', progress:80 },
+    { name:'REST APIs', progress:90 },
+    { name:'GraphQL', progress:75 },
+    { name:'MongoDB', progress:78 },
+    { name:'PostgreSQL', progress:75 },
+    { name:'Git / GitHub', progress:92 },
+    { name:'Docker', progress:70 },
+    { name:'CI/CD', progress:72 },
+    { name:'Jest / Testing Library', progress:80 },
+    { name:'Framer Motion', progress:82 },
+    { name:'Figma / UI Design', progress:78 },
+    { name:'Accessibility (a11y)', progress:80 },
+    { name:'Performance Optimization', progress:85 },
+    { name:'SEO', progress:80 },
   ]
 }
