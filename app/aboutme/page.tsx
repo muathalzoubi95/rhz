@@ -127,7 +127,7 @@ export default function AboutMePage() {
             <div className="relative space-y-4 text-zinc-300 leading-relaxed">
               <p>
                 Hello! I'm Muath Alzoubi, a passionate Front-End Developer with{" "}
-                <span className="font-semibold text-white bg-gradient-to-r from-indigo-300 to-sky-300 bg-clip-text text-transparent">more than 4 years of experience</span>{" "}
+                <span className="font-semibold bg-gradient-to-r from-indigo-300 to-sky-300 bg-clip-text text-transparent">more than 4 years of experience</span>{" "}
                 creating dynamic and user-friendly web applications. I specialize in JavaScript
                 technologies, particularly React.js, to build responsive and scalable solutions.
               </p>
