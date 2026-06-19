@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D0D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A2E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8A96E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8D5A3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="letterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8C8C8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" />
+
+  <!-- Thin gold ring -->
+  <circle cx="200" cy="200" r="188" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" />
+  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#accentGrad)" stroke-width="0.5" opacity="0.4" />
+
+  <!-- M letter — geometric, bold -->
+  <!-- Left vertical bar -->
+  <rect x="80" y="130" width="28" height="140" fill="url(#letterGrad)" />
+  <!-- Right vertical bar -->
+  <rect x="196" y="130" width="28" height="140" fill="url(#letterGrad)" />
+  <!-- Left diagonal (M left arm) -->
+  <polygon points="80,130 108,130 152,193 124,193" fill="url(#letterGrad)" />
+  <!-- Right diagonal (M right arm) -->
+  <polygon points="224,130 196,130 152,193 180,193" fill="url(#letterGrad)" />
+
+  <!-- Z letter — geometric, bold -->
+  <!-- Top bar of Z -->
+  <rect x="244" y="130" width="80" height="22" fill="url(#letterGrad)" />
+  <!-- Bottom bar of Z -->
+  <rect x="244" y="248" width="80" height="22" fill="url(#letterGrad)" />
+  <!-- Diagonal of Z -->
+  <polygon points="324,130 324,152 264,248 244,248 244,226 304,130" fill="url(#letterGrad)" />
+
+  <!-- Gold accent line beneath letters -->
+  <rect x="80" y="282" width="244" height="2" fill="url(#accentGrad)" opacity="0.8" />
+
+  <!-- Optional: subtle dot accent -->
+  <circle cx="200" cy="296" r="4" fill="url(#accentGrad)" />
+</svg>
