@@ -1,5 +1,4 @@
 "use client"
-
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight, Info } from "lucide-react"
@@ -59,8 +58,8 @@ export default function VirtualTour() {
   return (
     <div className="container mx-auto max-w-3xl p-4 ">
       <h2 className="p-6 text-center text-3xl font-bold tracking-tighter sm:text-5xl">
-                Projects
-                </h2>
+        Projects
+      </h2>
       <div className="relative overflow-hidden">
         <div className="p-0">
           <img
