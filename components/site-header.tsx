@@ -40,7 +40,7 @@ export function SiteHeader() {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 opacity-40 blur-md transition-all duration-300 group-hover:opacity-80 group-hover:blur-lg" />
               <img
-                src="/thirteen.svg"
+                src="/mz.svg"
                 className="relative size-9"
                 alt="logo"
               />
