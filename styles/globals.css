@@ -112,8 +112,6 @@ body,
 }
 
 body {
-
-  cursor: url('/cursor.png'), auto;
   animation: bg-pos 2s backwards;
 }
 
