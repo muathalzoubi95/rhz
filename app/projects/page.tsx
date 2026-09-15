@@ -10,7 +10,7 @@ interface Project {
   description: string
   image: string
   tags: string[]
-  githubUrl: string
+  githubUrl?: string
   liveUrl: string
 }
 
