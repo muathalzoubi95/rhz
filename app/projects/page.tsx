@@ -15,6 +15,10 @@ interface Project {
 }
 
 const projects: Project[] = [
+  { id: 16, title: "OpslyDesk", description: "A unified service desk for tickets, live chat, assets, knowledge management, and IT operations.", image: "/opslydesk.png", tags: ["Service Desk", "IT Operations", "SaaS"], liveUrl: "https://app.opslydesk.com/" },
+  { id: 17, title: "Metrik", description: "AI-powered, white-label performance reporting for marketing agencies and their clients.", image: "/metrik.png", tags: ["AI Reporting", "Analytics", "SaaS"], liveUrl: "https://metrik.heboah5.workers.dev/" },
+  { id: 18, title: "MeterSnap", description: "Competitor SEO analysis that turns website insights into prioritized, actionable growth playbooks.", image: "/metersnap.png", tags: ["SEO", "Competitor Analysis", "Analytics"], liveUrl: "https://metersnap.heboah5.workers.dev/" },
+  { id: 19, title: "APEX Fitness Tracker", description: "A performance-focused fitness tracker for athletes to monitor training, routines, and progress.", image: "/apex-fitness.png", tags: ["Premium Design", "Fitness", "Performance Tracking", "Web App"], liveUrl: "https://apex-fitness-tracker.heboah5.workers.dev/" },
   { id: 1, title: "Design Wave", description: "A modern web design landing page with interactive elements.", image: "/wave.avif", tags: ["React", "Node.js", "UI", "CSS"], githubUrl: "https://designwaveapp.netlify.app/", liveUrl: "https://designwaveapp.netlify.app/" },
   { id: 2, title: "Point of Sales", description: "A complete Point of Sales system for retail businesses.", image: "/pos.png", tags: ["React", "Node.js", "Redux", "CSS"], githubUrl: "https://possys-app.netlify.app/", liveUrl: "https://possys-app.netlify.app/" },
   { id: 3, title: "Web Design App", description: "A web design application built with Next.js and modern tooling.", image: "/web.png", tags: ["React", "API Integration", "Tailwind CSS"], githubUrl: "https://web-desgin-app.netlify.app/", liveUrl: "https://web-desgin-app.netlify.app/" },
